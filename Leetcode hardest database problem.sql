@@ -1,4 +1,4 @@
-/* Solution:
+/* MySQL Solution:
 
 First SELECT: select all the rows:
 a) whose both client and driver are unbanned; and
