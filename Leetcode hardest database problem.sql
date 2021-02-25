@@ -144,7 +144,6 @@ SELECT
 Totals.Day, 
 IF(cancelled_per_day IS NOT NULL, ROUND(cancelled_per_day/total_per_day, 2), 0.00) 
 AS `Cancellation Rate`
-FROM Totals LEFT JOIN Cancelled ON Totals.Day = Cancelled.Day
-;
+FROM Totals LEFT JOIN Cancelled ON Totals.Day = Cancelled.Day;
 
 -- Author of the solution: Lucas Paz
